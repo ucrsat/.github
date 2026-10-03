@@ -60,4 +60,4 @@ not every project needs every folder. leave out what doesn't apply.
 - `main` is always the reviewed, buildable state. do work on a branch (`<name>/<short-description>` or `add-<part>`).
 - open a pull request into `main`. at least **one other member** reviews it before merge.
 - hardware reviews check the schematic against datasheets, run ERC/DRC with no unexplained violations, and confirm every part has an MPN.
-- tag board releases sent to fab as `<project>-<X>` (e.g. `sun-sensor-board-1.1`) so every manufactured board traces back to a commit.
+- tag board releases sent to fab as `<project>-<version>` (e.g. `sun-sensor-board-1.1`) so every manufactured board traces back to a commit.
